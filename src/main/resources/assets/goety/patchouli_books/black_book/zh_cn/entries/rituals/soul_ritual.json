@@ -1,0 +1,34 @@
+{
+  "name": "灵魂仪式",
+  "icon": "minecraft:soul_sand",
+  "category": "goety:rituals",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "需要: $(li)8个花盆[种植凋灵玫瑰] $(li)16个幽匿块 $(li)4个灵魂火 $(li)12个哭泣黑曜石 $(li)1个铁砧 $(li)1个锻造台 $(li)1个高炉 $(li)1个炼药锅 $(li)4个灵魂沙"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["malice_enhanced:textures/gui/entries/soul_ritual.png"],
+      "border": true,
+      "text": "一个正确摆放仪式的例子."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "malice_enhanced:soul_sword_ritual"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "malice_enhanced:soul_bow_ritual"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "仪式必须在$(item)下界$()中进行。锻剑时将$(item)灵魂之心$()放置在黑暗祭坛上；锻弓时则放置$(item)猎人之弓$()。右键启动后，还需在祭坛附近$(bold)献祭一只使徒$()，仪式的计时才会开始。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "灵魂能量会在仪式期间从祭坛正下方的$(item)诅咒牢笼$()中扣除: $(li)每秒消耗 5,000 点 $(li)持续 20 秒 $(li)总计消耗 100,000 点 $(br)$(bold)该消耗为绝对数值, 任何“灵魂折扣”装备都不会使其减少."
+    }
+  ]
+}

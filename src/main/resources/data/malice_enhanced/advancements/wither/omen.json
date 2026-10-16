@@ -1,0 +1,231 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.malice_enhanced.wither.omen.title"
+    },
+    "description": {
+      "translate": "advancements.malice_enhanced.wither.omen.description"
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "star_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":1}"
+          }
+        ]
+      }
+    },
+    "star_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":2}"
+          }
+        ]
+      }
+    },
+    "star_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":3}"
+          }
+        ]
+      }
+    },
+    "star_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":4}"
+          }
+        ]
+      }
+    },
+    "star_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":5}"
+          }
+        ]
+      }
+    },
+    "star_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":6}"
+          }
+        ]
+      }
+    },
+    "star_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":7}"
+          }
+        ]
+      }
+    },
+    "star_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":8}"
+          }
+        ]
+      }
+    },
+    "star_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":9}"
+          }
+        ]
+      }
+    },
+    "star_10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":10}"
+          }
+        ]
+      }
+    },
+    "star_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":11}"
+          }
+        ]
+      }
+    },
+    "star_12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":12}"
+          }
+        ]
+      }
+    },
+    "star_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "nbt": "{\"malice_enhanced:wither_title\":13}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "star_1"
+    ],
+    [
+      "star_2"
+    ],
+    [
+      "star_3"
+    ],
+    [
+      "star_4"
+    ],
+    [
+      "star_5"
+    ],
+    [
+      "star_6"
+    ],
+    [
+      "star_7"
+    ],
+    [
+      "star_8"
+    ],
+    [
+      "star_9"
+    ],
+    [
+      "star_10"
+    ],
+    [
+      "star_11"
+    ],
+    [
+      "star_12"
+    ],
+    [
+      "star_13"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

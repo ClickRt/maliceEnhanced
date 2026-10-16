@@ -1,0 +1,32 @@
+{
+  "parent": "malice_enhanced:wither/should_not_exist",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.malice_enhanced.wither.tear_nightmare.title"
+    },
+    "description": {
+      "translate": "advancements.malice_enhanced.wither.tear_nightmare.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlocked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "unlocked"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": false
+}

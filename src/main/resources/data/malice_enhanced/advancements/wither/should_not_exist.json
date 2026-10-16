@@ -1,0 +1,40 @@
+{
+  "parent": "malice_enhanced:wither/omen",
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "advancements.malice_enhanced.wither.should_not_exist.title"
+    },
+    "description": {
+      "translate": "advancements.malice_enhanced.wither.should_not_exist.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlocked": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "malice_enhanced:summon_undefined_wither"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unlocked"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

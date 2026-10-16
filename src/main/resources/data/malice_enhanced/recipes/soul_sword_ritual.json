@@ -1,0 +1,59 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "soul_ritual",
+  "activation_item": {
+    "type": "forge:partial_nbt",
+    "item": "minecraft:nether_star",
+    "nbt": "{\"malice_enhanced:undefined_wither\": 1b}"
+  },
+  "soulCost": 5000,
+  "duration": 20,
+  "entity_to_sacrifice": {
+    "tag": "malice_enhanced:soul_ritual_sacrifice",
+    "display_name": "entity.goety.apostle"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:wooden_sword"
+    },
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "goety:undeath_potion"
+    },
+    {
+      "item": "goety:ring_of_want"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{id:\"malice_enhanced:pure_malice\",lvl:5s}]}"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "goety:forbidden_scroll"
+    }
+  ],
+  "result": {
+    "item": "malice_enhanced:soul_sword"
+  }
+}

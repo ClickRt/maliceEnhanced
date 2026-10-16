@@ -1,0 +1,1 @@
+/summon malice_enhanced:enhanced_wither ~ ~ ~

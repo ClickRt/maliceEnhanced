@@ -1,0 +1,70 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="malice_enhanced"
+version="1.0.2"
+displayName="Malice Enhanced"
+logoFile="logo.png"
+authors="LJY"
+description='''Malice Enhanced (恶意·扩展附魔)'''
+
+[[mixins]]
+    config="malice_enhanced.mixins.json"
+
+[[dependencies.malice_enhanced]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="goety"
+    mandatory=false
+    versionRange="[1.20.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="goety_revelation"
+    mandatory=false
+    versionRange="[1.20.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="irons_spellbooks"
+    mandatory=false
+    versionRange="[1.20.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="ending_library"
+    mandatory=false
+    versionRange="[1.20.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="curios"
+    mandatory=false
+    versionRange="[5.4,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.malice_enhanced]]
+    modId="jade"
+    mandatory=false
+    versionRange="[11,)"
+    ordering="AFTER"
+    side="BOTH"

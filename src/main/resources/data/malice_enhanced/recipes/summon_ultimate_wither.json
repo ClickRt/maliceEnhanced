@@ -1,0 +1,78 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon",
+  "activation_item": {
+    "type": "forge:nbt",
+    "item": "minecraft:nether_star",
+    "nbt": "{\"malice_enhanced:wither_title\": 13}"
+  },
+  "craftType": "sabbath",
+  "entity_to_summon": "minecraft:wither",
+  "soulCost": 1111,
+  "duration": 20,
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 1}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 2}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 3}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 4}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 5}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 6}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 7}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 8}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 9}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 10}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 11}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:wither_title\": 12}"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

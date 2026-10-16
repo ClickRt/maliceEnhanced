@@ -1,0 +1,34 @@
+{
+  "name": "Soul Ritual",
+  "icon": "minecraft:soul_sand",
+  "category": "goety:rituals",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Requires: $(li)8 flower pots [planted with wither roses] $(li)16 sculk blocks $(li)4 soul fires $(li)12 crying obsidian $(li)1 anvil $(li)1 smithing table $(li)1 blast furnace $(li)1 cauldron $(li)4 soul sand"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["malice_enhanced:textures/gui/entries/soul_ritual.png"],
+      "border": true,
+      "text": "An example of a properly built ritual."
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "malice_enhanced:soul_sword_ritual"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "malice_enhanced:soul_bow_ritual"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The ritual must be performed in the $(item)Nether$(). Place a $(item)Soul Heart$() on the Dark Altar to forge the sword, or a $(item)Hunter's Bow$() to forge the bow. After activating it, a nearby $(bold)Apostle must be sacrificed$() before the ritual timer starts ticking."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Soul energy is drained from the $(item)Cursed Cage$() directly beneath the altar during the ritual: $(li)5,000 per second $(li)lasting 20 seconds $(li)100,000 in total $(br)$(bold)This cost is absolute; no amount of “Soul Discount” equipment will reduce it."
+    }
+  ]
+}

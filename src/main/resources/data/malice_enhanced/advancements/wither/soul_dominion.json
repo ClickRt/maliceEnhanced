@@ -1,0 +1,29 @@
+{
+  "parent": "malice_enhanced:wither/tear_nightmare",
+  "display": {
+    "icon": {
+      "item": "malice_enhanced:soul_sword"
+    },
+    "title": {
+      "translate": "advancements.malice_enhanced.wither.soul_dominion.title"
+    },
+    "description": {
+      "translate": "advancements.malice_enhanced.wither.soul_dominion.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unlocked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "unlocked"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

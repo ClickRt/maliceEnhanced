@@ -1,0 +1,45 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "craftType": "soul_ritual",
+  "activation_item": {
+    "item": "goety:hunters_bow"
+  },
+  "soulCost": 5000,
+  "duration": 20,
+  "entity_to_sacrifice": {
+    "tag": "malice_enhanced:soul_ritual_sacrifice",
+    "display_name": "entity.goety.apostle"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "goety:forbidden_scroll"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "goety:soul_ruby"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:nether_star",
+      "nbt": "{\"malice_enhanced:undefined_wither\": 1b}"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "malice_enhanced:soul_bow"
+  }
+}

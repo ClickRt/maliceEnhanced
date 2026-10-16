@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "size": 1,
+  "order": 220,
+  "icon": "malice_enhanced:slot/star_crystal",
+  "add_cosmetic": false,
+  "use_native_gui": true
+}

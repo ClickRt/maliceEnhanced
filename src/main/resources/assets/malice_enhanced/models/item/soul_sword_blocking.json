@@ -1,0 +1,40 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "malice_enhanced:item/soul_sword_hand",
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [0, -90, 0],
+        "translation": [0, 8, 2],
+        "scale": [1.8, 1.8, 1.8]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [0, 90, 0],
+        "translation": [0, 8, 2],
+        "scale": [1.8, 1.8, 1.8]
+      },
+      "firstperson_righthand": {
+        "rotation": [0, 90, 20],
+        "translation": [1.13, -3.0, 1.13],
+        "scale": [1.28, 1.28, 1.28]
+      },
+      "firstperson_lefthand": {
+        "rotation": [0, -90, -20],
+        "translation": [1.13, -3.0, 1.13],
+        "scale": [1.28, 1.28, 1.28]
+      }
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "malice_enhanced:item/soul_sword_gui"
+    },
+    "fixed": {
+      "parent": "malice_enhanced:item/soul_sword_gui"
+    },
+    "ground": {
+      "parent": "malice_enhanced:item/soul_sword_gui"
+    }
+  }
+}

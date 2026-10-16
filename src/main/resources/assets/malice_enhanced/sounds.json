@@ -1,0 +1,23 @@
+{
+  "sword_parry": {
+    "subtitle": "malice_enhanced.subtitle.sword_parry",
+    "sounds": [
+      "malice_enhanced:sword_parry"
+    ]
+  },
+  "swing_sword": {
+    "subtitle": "malice_enhanced.subtitle.swing_sword",
+    "sounds": [
+      "malice_enhanced:swing_sword"
+    ]
+  },
+  "undefined_wither_boss": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "malice_enhanced:undefined_wither_boss",
+        "stream": true
+      }
+    ]
+  }
+}

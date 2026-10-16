@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "__comment": "灵魂仪式的献祭目标：使徒（含可召唤变体）",
+  "values": [
+    "goety:apostle",
+    "goety:summon_apostle"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "malice_enhanced:item/soul_sword_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "malice_enhanced:item/soul_sword_gui"
+    },
+    "fixed": {
+      "parent": "malice_enhanced:item/soul_sword_gui"
+    },
+    "ground": {
+      "parent": "malice_enhanced:item/soul_sword_gui"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "malice_enhanced:item/soul_sword_blocking"
+    }
+  ]
+}
